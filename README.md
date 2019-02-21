@@ -1,1 +1,1 @@
-# CFI-Android-app
+# CFI Android application

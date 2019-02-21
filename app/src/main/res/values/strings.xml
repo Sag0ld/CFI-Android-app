@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CFI - Event</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">or</string>
+    <string name="connect_as_a_guest">Connect as a guest</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_information_activity">CFI - Compétition Formation Informatique</string>
+
+    <string name="slack_storage_name">slack-storage-related</string>
+    <string name="slack_token_association_key">slack-token</string>
+    <string name="slack_connection_message">You\'ll need to join the slack to use the app</string>
+    <string name="slack_opening_door_directive">A request will be sent on Slack to open the door</string>
+    <string name="slack_join">Join the Slack</string>
+    <string name="title_activity_sesame">SesameActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="sesame">Sesame</string>
+    <string name="slack_open_door_request">Send open request</string>
+</resources>
