@@ -4,16 +4,10 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.widget.Toast
 import com.sagold.cfievent.R
-import com.sagold.cfievent.services.RequestService
 import com.sagold.cfievent.services.StorageService
-import com.squareup.okhttp.Callback
-import com.squareup.okhttp.Request
-import com.squareup.okhttp.Response
 import kotlinx.android.synthetic.main.content_information_activity.*
-import java.io.IOException
 
 
 class InformationActivity : AppCompatActivity() {

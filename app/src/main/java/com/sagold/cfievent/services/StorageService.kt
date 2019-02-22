@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import com.sagold.cfievent.R
 
 class StorageService(val context: Context) {
+
     var sharedPreferences: SharedPreferences = context.getSharedPreferences(
             context.getString(R.string.slack_storage_name), Context.MODE_PRIVATE)
 

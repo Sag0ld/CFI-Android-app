@@ -1,11 +1,9 @@
 package com.sagold.cfievent.activities
 
-import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.google.android.gms.auth.api.signin.internal.Storage
 import com.sagold.cfievent.R
 import com.sagold.cfievent.services.StorageService
 import kotlinx.android.synthetic.main.activity_login.*

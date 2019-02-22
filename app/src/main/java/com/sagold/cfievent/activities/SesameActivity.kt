@@ -4,12 +4,12 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Toast
-import com.sagold.cfievent.R
 import com.sagold.cfievent.services.RequestService
 import com.sagold.cfievent.services.StorageService
-import com.squareup.okhttp.Callback
-import com.squareup.okhttp.Request
-import com.squareup.okhttp.Response
+import okhttp3.Call
+import com.sagold.cfievent.R
+import okhttp3.Callback
+import okhttp3.Response
 
 import java.io.IOException
 
@@ -32,11 +32,11 @@ class SesameActivity : AppCompatActivity() {
         val request = requestService.createPostRequest(doorUrl).newBuilder()
                                 .addHeader("Authorization", "Bearer $token").build()
         requestService.sendRequest(request, object: Callback {
-            override fun onFailure(request: Request?, e: IOException?) {
+            override fun onFailure(call: Call, e: IOException) {
                 Log.d("response", "fail :(")
             }
 
-            override fun onResponse(response: Response?) {
+            override fun onResponse(call: Call, response: Response) {
                 Log.d("response", "yeah!! :)")
             }
         })
